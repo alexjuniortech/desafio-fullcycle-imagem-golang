@@ -5,13 +5,13 @@ Aplicação em Go que imprime `Full Cycle Rocks!!` ao rodar, em uma imagem Docke
 ## Build local
 
 ```bash
-docker build -t fullcycle-desafio-docker:latest .
+docker build -t alexjunior012/fullcycle-desafio-docker:latest .
 ```
 
 ## Rodar
 
 ```bash
-docker run --rm fullcycle-desafio-docker:latest
+docker run --rm alexjunior012/fullcycle-desafio-docker:latest
 ```
 
 Saída esperada:
